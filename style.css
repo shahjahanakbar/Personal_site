@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(3, 3, 3, 0.784);
+    color: #fff;
+}
+#theme-toggle{
+    margin-right: 10px;
+}
+/* CSS for the section */
+.my-section {
+    background-image: url(./images/about-me-background.jpg);
+    background-size: cover; /* Adjust as needed (e.g., 'contain', '100%', 'auto') */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other styles for your section, like padding, text color, etc. */
+    color: #fff;
+}
+.my-projects{
+    margin-top: 20px;
+    background-image: url(./images/Projects_background.jpg);
+    background-size: cover; /* Adjust as needed (e.g., 'contain', '100%', 'auto') */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other styles for your section, like padding, text color, etc. */
+    color: #fff;
+    
+}
+.contact_me{
+    background-image: url(./images/Hire\ me.jpg);
+    background-size: cover; /* Adjust as needed (e.g., 'contain', '100%', 'auto') */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other styles for your section, like padding, text color, etc. */
+    color: #fff;
+}
+.footor
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url(./images/cat-han-W_5Eakb1598-unsplash.jpg);
+    background-size: cover; /* Adjust as needed (e.g., 'contain', '100%', 'auto') */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other styles for your section, like padding, text color, etc. */
+    color: #fff;
+}
+.text-body-emphasis{
+    --bs-text-opacity: 1;
+    color: rgb(255, 255, 255) var(--bs-emphasis-color)!important;
+}

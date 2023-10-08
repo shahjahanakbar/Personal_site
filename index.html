@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahjahan Akbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark bg-transparent">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About_Me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Contact" tabindex="-1" aria-disabled="true">Contact Me</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- ABout Me -->
+  <section id="About_Me" class="my-section">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/shah.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+            height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
+          <p class="lead">I'm a computer science student who loves coding and creating web apps. When I'm not in front
+            of the screen, you'll find me lost in Tolstoy's books or glued to Christopher Nolan's mind-bending films. A
+            tech enthusiast with a passion for storytelling.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects -->
+  <section class="my-projects" id="Projects">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Projects</h2>
+
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold text-body-emphasis text-light">1+ years of experience as Python/Web Developer.</h2>
+          <p class="text-body-light">I have created projects for 10+ clients. Click on the link below to see my
+            Projects.</p>
+          <a href="https://github.com/shahjahan" class="btn btn-lg rounded-pill btn-light px-4">Projects</a>
+        </div>
+
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
+                <svg class="bi" width="1rem" height="1rem">
+                  <img src="./icons/python-3 (1).svg" alt="" width="200" height="100">
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis text-light">Python</h4>
+              <p class="text-body-light">Created multiple Flask apps using Python.</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
+                <svg class="bi" width="1rem" height="1rem">
+                  <img src="./icons/webdev-1.svg" alt="" width="200" height="100">
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Web Developer</h4>
+              <p class="text-body-light">Full Stack (MERN) web developer.
+              </p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
+                <svg class="bi" width="1rem" height="1rem">
+                  <img src="./icons/java-4.svg" alt="" width="200" height="100">
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Java</h4>
+              <p class="text-body-light">Learning Java</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
+                <svg class="bi" width="1rem" height="1rem">
+                  <img src="./icons/medium-wordmark.svg" alt="" width="200" height="100">
+                </svg>
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis text-light">Content Writer</h4>
+              <p class="text-body-light">Working as a Content Writer for Past 3 years.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact_me" id="Contact">
+    <div class="px-4 py-5 my-3 text-center ">
+      <!-- <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+      <h1 class="display-5 fw-bold text-light">Hire Me</h1>
+      <div class="col-lg-6 mx-auto">
+        <h3 class="lead mt-4 mb-4">I would love to hear your project ideas.</h3>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a style="padding: 10px" class="btn btn-lg rounded-pill btn-dark px-4"
+            href="mailto:shahjahanakbar10b@gmail.com">Send an Email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footor">
+    <footer>
+      <div class="d-flex flex-column flex-sm-row justify-content-between pt-3">
+        <p>© 2022 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="https://x.com/ShahjahanAkba13?t=sSChPRl0W7EbHCa3Gf32ww&s=09"><svg
+                class="bi" width="24" height="24"> <img src="./icons/icons8-twitter.svg" alt="">
+                <use xlink:href="#twitter"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="https://instagram.com/the_lost.soul_?igshid=MzMyNGUyNmU2YQ=="><svg
+                class="bi" width="24" height="24"> <img src="./icons/icons8-instagram.svg" alt="">
+                <use xlink:href="#instagram"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#https://www.facebook.com/shaakb10?mibextid=ZbWKwL"><svg
+                class="bi" width="24" height="24"><img src="./icons/icons8-facebook.svg" alt="">
+                <use xlink:href="#facebook"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
